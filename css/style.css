@@ -1,0 +1,105 @@
+		.header {
+		font-size: 30px;
+		text-align: center;
+		border: 3px dashed white;
+		background-image: url("../images/colors.jpg");
+		background-size: 100%;
+		}
+		
+		.smallheaders {
+		font-size: 40px;
+		text-align: center;
+		border: 2px dashed white;
+		padding: 20px;
+		background-image: url("https://cdn-images-1.medium.com/max/1200/1*c94SpnDXD8imHLUW0fl-ng.jpeg");
+		background-size: 100%;
+		}
+	
+		p {
+		color:white;
+		font-size: 20px;
+		}
+		
+		body {
+		background-image: url("https://fsa.zobj.net/crop.php?r=VlX2P0UYh8DFscgLQPQoilcrmKNIRvPJckvc1pqgcsPzJ-39xb973kHggH5wDCxRsSFujrWqIYHFj82NFvpplgjKQt0hrUr1ji5Mi2xSkzFxB6HQARE_7H2XKOk39Zw65CJ4vVeVTbyVBEIh3QeC48l09eC3h4MRuu9MUlngj63I1oHfrP9PXoLGS0g");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size:cover;
+		text-shadow: 3px 3px 3px #aaa;
+		text-align: center;
+		font-family: "Orbitron", sans-serif, serif;
+		}
+		
+		.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+		border: 1px solid white;
+		}
+		
+		li {
+		color:white;
+		padding: 10px;
+		text-decoration: underline;
+	
+		}
+		
+		iframe {
+		border: 1px solid white;
+		}
+		
+		.footer {
+		padding: 20px;
+		}
+		
+		#navbar ul li { 
+		display: inline; 
+		} 
+
+		#navbar ul li a { 
+		text-decoration: none; 
+		padding: .2em 1em; 
+		color: #fff; 
+		
+		} 
+
+		#navbar ul li a:hover { 
+		color: #000; 
+		background-color: #fff; 
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		font-size:20px;
+		}
+		
+		.button {
+		background-color:#db6007;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 3px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		
+		.button2 {
+		background-color:#47076b;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 3px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+		cursor:pointer;
+		}
+		
+		.disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+}
