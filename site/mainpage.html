@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Main page</title>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+	<style>
+		
+		body {
+		background-image: url("images/lowpoly.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size:cover;
+		text-shadow: 3px 3px 3px #aaa;
+		text-align: center;
+		font-family: "Orbitron", sans-serif, serif;
+		}
+		
+		.header {
+		font-size: 30px;
+		text-align: center;
+		border: 3px dashed white;
+		background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/B3WtMhFxMjaid4bfm/videoblocks-blue-low-poly-background_r6gaw-nwg_thumbnail-full01.png");
+		background-size: 100%
+		}
+		
+		#navbar ul { 
+		margin: 0; 
+		padding: 5px; 
+		list-style-type: none; 
+		text-align: center; 
+		} 
+
+		#navbar ul li { 
+		display: inline; 
+		} 
+
+		#navbar ul li a { 
+		text-decoration: none; 
+		padding: .2em 1em; 
+		color: #fff; 
+		} 
+
+		#navbar ul li a:hover { 
+		color: #000; 
+		background-color: #fff; 
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		font-size:20px;
+
+		}
+		
+		img {
+		border: 2px solid white;
+		float-down:100px;
+		}
+		
+		li {
+		text-decoration:underline;
+		}
+		
+		h5 {
+		color:white;
+		border:2px dashed white;
+		font-size:20px;
+		padding:20px;
+		background-image: url("https://ak5.picdn.net/shutterstock/videos/25776935/thumb/12.jpg")
+		}
+		
+		.footer {
+		padding:50px;
+		}
+		
+		.button {
+		background-color:#63c1ff;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 3px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		cursor:pointer;
+		}
+
+		
+		
+	</style>
+	
+</head>
+<body>
+	
+	<div id="navbar"> 
+		<ul> 
+			<li><a href="mainpage.html">Main</a></li> 
+			<li><a href="about.html">About</a></li> 
+			<li><a href="space.html">Space</a></li> 
+			<li><a href="animals.html">Animals</a></li> 
+			<li><a href="youtube.html">Youtube Vids</a></li> 
+		</ul> 
+	</div>
+	
+	<div class="header">
+		
+		<h1 style="color:white"><b>Main</b></h1>
+	
+	</div>
+	
+	<p>Welcome to this useless main page!</p>
+	<p>This website is here to show you some really cool things!</p>
+	<p>Like this quote:</p>
+	<br>
+	<h5>"Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only <b style="color:red">love</b> can do that". - Martin Luther King Jr.</h5>
+	
+	<button class="button" type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+	Click me to display Date and Time.</button>
+
+	<p style="color:white" id="demo"></p>
+	<p>Other than that this mainpage is here mostly because I was trying to make this look like a professional website.</p>
+	
+	<br>
+
+	<img src="https://media1.tenor.com/images/b6974f062989fe5723c205f8e37453ab/tenor.gif?itemid=13125853" width="350" alt="Bored cat">
+
+	<br>
+	<div class="footer">
+		<p>This webpage was created by Jade Wallen</p>
+	</div>
+	
+</body>
+</html>
